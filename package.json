@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "vitepress": "^1.2.0"
+  },
+  "scripts": {
+    "i": "yarn",
+    "docs:dev": "vitepress dev docs  --open",
+    "docs:build": "vitepress build docs",
+    "server": "vitepress dev docs  --open",
+    "dev": "vitepress dev docs  --open",
+    "docs:preview": "vitepress preview docs",
+    "clean": "npx rimraf node_modules"
+  }
+}
